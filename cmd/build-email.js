@@ -260,5 +260,5 @@ const doc = `<!DOCTYPE html>
 `;
 
 // ─── Write ──────────────────────────────────────────────
-fs.writeFileSync(path.join(__dirname, "template.html"), doc, "utf8");
+fs.writeFileSync(path.join(__dirname, "..", "template.html"), doc, "utf8");
 console.log("template.html generated successfully.");

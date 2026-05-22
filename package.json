@@ -2,8 +2,10 @@
   "name": "mailpit-test",
   "private": true,
   "scripts": {
-    "build": "node build-email.js",
-    "send": "node send-email.js"
+    "build": "node cmd/build-email.js",
+    "send": "node cmd/send-email.js",
+    "dev": "npm run build && npm run send",
+    "all": "npm run build && npm run send"
   },
   "dependencies": {
     "nodemailer": "^6.9.16"
