@@ -1,0 +1,10 @@
+{
+  "name": "mailpit-test",
+  "private": true,
+  "scripts": {
+    "send": "node send-email.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
