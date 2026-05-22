@@ -1,6 +1,6 @@
-# HashMicro ERP EDM Template
+# EDM Template
 
-Production-ready HTML email template for HashMicro's B2B prospecting campaign.
+Production-ready HTML email template for B2B prospecting campaigns.
 
 ## Quick Start
 
