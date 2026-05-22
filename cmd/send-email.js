@@ -8,7 +8,7 @@ const transporter = nodemailer.createTransport({
   secure: false,
 });
 
-const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8");
+const html = fs.readFileSync(path.join(__dirname, "..", "template.html"), "utf8");
 
 const mailOptions = {
   from: '"Sender" <sender@example.com>',
